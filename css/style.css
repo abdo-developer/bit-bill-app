@@ -1,0 +1,446 @@
+/* Font The Page */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+/* Body */
+body {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* Hedaer */
+header.top__header {
+    background-image: url(../images/header_img.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header.top__header nav.navbar button.navbar-toggler {
+    color: white;
+    font-size: 24px;
+}
+
+header.top__header nav.navbar ul li a {
+    padding-right: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top__header nav.navbar ul li a:hover,
+header.top__header nav.navbar ul li a:focus,
+header.top__header nav.navbar ul li a:active {
+    color: wheat;
+}
+
+header.top__header .middle-custom {
+    margin-top: 8%;
+}
+
+header.top__header .title-app h4 {
+    color: white;
+    margin: 30px 0;
+}
+
+header.top__header .text-marketing p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+header.top__header .scroll-down button {
+    color: white;
+    font-weight: 500;
+    background-color: #e12027;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    padding: 14px 50px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+header.top__header .scroll-down button:hover,
+header.top__header .scroll-down button:active,
+header.top__header .scroll-down button:focus {
+    color: black;
+}
+
+header.top__header .social-icons ul li {
+    margin-right: 0 !important;
+    background-color: #e12027;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    text-align: center;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+
+
+header.top__header .social-icons ul li a svg {
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+header.top__header .social-icons ul li a svg:hover {
+    color: white;
+}
+
+/* Section about app */
+.title-section h4 {
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.bx-shadow {
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 40px 25px;
+    border-top: 10px solid #e12027;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.bx-shadow:hover {
+    border-color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.bx-shadow img {
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+.bx-shadow .title-icon h4 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.bx-shadow .text-icon p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+section.about-app .activate-on .title-row h4 {
+    margin: 40px 0;
+}
+
+section.about-app .activate-on ul {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+section.about-app .activate-on ul li:not(:last-child) {
+    margin-right: 0 !important;
+}
+
+section.about-app .activate-on ul li {
+    background-color: #e12027;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+section.about-app .activate-on ul li:hover {
+    background-color: black;
+}
+
+section.about-app .activate-on ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+section.about-app .activate-on ul li a i {
+    color: white;
+    font-size: 34px;
+    display: block;
+    text-align: center;
+}
+
+/* subscribe-now */
+section.subscribe-now {
+    background-color: #262C30;
+    padding: 30px 0;
+}
+
+section.subscribe-now .title-section h4 {
+    color: white;
+}
+
+section.subscribe-now .text-marks p {
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+
+section.subscribe-now form label {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Table pricing */
+.panel-pricing {
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    background-color: white;
+    border-radius: 15px;
+    border-top: 5px solid #e12027;
+}
+
+.panel-pricing:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.panel-pricing .panel-heading {
+    padding: 20px 10px;
+}
+
+.panel-pricing .panel-heading .code img {
+    margin: 10px 0;
+    height: 100px;
+}
+
+.panel-pricing .list-group-item {
+    color: #777777;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.panel-pricing .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.panel-pricing .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.panel-pricing .panel-body {
+    background-color: #f0f0f0;
+    font-size: 40px;
+    color: #777777;
+    padding: 20px;
+    margin: 0px;
+}
+
+ul.spacing-top.text-center {
+    margin: 25px 0;
+    padding: 0;
+}
+
+ul.spacing-top.text-center li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn-custom-package {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #e12027;
+    color: white;
+    border-radius: 0;
+    padding: 12px 30px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom-package:hover {
+    background-color: black;
+    color: white;
+}
+
+section.contact-us {
+    background-color: rgb(235, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 25px 40px;
+}
+
+section.contact-us .small-description p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+section.contact-us .form-group label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.contact-us .form-group label svg {
+    margin-left: 6px;
+    font-size: 22px;
+    color: black;
+}
+
+section.contact-us .form-group button {
+    background-color: black;
+    border-radius: 0;
+    padding: 10px 26px;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+section.contact-us .form-group button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+footer.last-footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer.last-footer h5 {
+    color: white;
+    margin-top: 12px;
+}
+
+/* Responsive page using media Query*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .image-app {
+        text-align: center;
+    }
+
+    .image-app img {
+        height: 300px;
+    }
+
+    header.top__header .middle-custom {
+        margin-top: 0;
+    }
+
+    section.about-app .activate-on ul li a {
+        font-size: 18px;
+    }
+
+    section.about-app .activate-on ul li a i {
+        font-size: 30px;
+    }
+
+    header.top__header .scroll-down button {
+        background-color: white;
+        color: black;
+    }
+
+    header.top__header .social-icons ul li {
+        background-color: #e12027;
+    }
+
+    header.top__header .social-icons ul li a svg:hover {
+        color: black;
+    }
+
+    section.about-app .activate-on ul li {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    section.about-app .activate-on .title-row h4 {
+        font-size: 22px;
+    }
+
+    .panel-pricing .panel-body {
+        font-size: 30px;
+    }
+
+    section.contact-us .small-description p {
+        font-size: 20px;
+    }
+
+    footer.last-footer h5 {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .image-app {
+        text-align: center;
+    }
+
+    .image-app img {
+        height: 400px;
+    }
+
+    header.top__header .middle-custom {
+        margin-top: 0;
+    }
+
+    section.about-app .activate-on ul li a {
+        font-size: 18px;
+    }
+
+    section.about-app .activate-on ul li a i {
+        font-size: 30px;
+    }
+
+    header.top__header .scroll-down button {
+        background-color: white;
+        color: black;
+    }
+
+    header.top__header .social-icons ul li {
+        background-color: #e12027;
+    }
+
+    header.top__header .social-icons ul li a svg:hover {
+        color: black;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .image-app {
+        text-align: center;
+    }
+
+    header.top__header .middle-custom {
+        margin-top: 0;
+    }
+
+    header.top__header .scroll-down button {
+        background-color: white;
+        color: black;
+    }
+
+    header.top__header .social-icons ul li {
+        background-color: #e12027;
+    }
+
+    header.top__header .social-icons ul li a svg:hover {
+        color: black;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .image-app img {
+        height: 440px;
+    }
+
+    .panel-pricing .panel-body {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Good Responsive */
+}
